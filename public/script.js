@@ -108,11 +108,8 @@ function toggleFecha(fecha) {
 
   const opts = document.querySelectorAll("#voto-fechas .check-opt");
   const labels = [
-    "Martes 9 de junio",
-    "Jueves 11 de junio",
-    "Sábado 13 de junio",
-    "Martes 16 de junio",
-    "Jueves 18 de junio",
+    "Martes 3 de noviembre 19:00-20:00",
+    "Lunes 16 de noviembre 18:30-19:30",
   ];
   opts.forEach((opt, i) => {
     opt.classList.toggle("selected", state.fechas.has(labels[i]));
