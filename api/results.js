@@ -3,11 +3,8 @@ import { google } from "googleapis";
 const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
 const FECHAS = [
-  "Martes 9 de junio",
-  "Jueves 11 de junio",
-  "Sábado 13 de junio",
-  "Martes 16 de junio",
-  "Jueves 18 de junio",
+  "Martes 3 de noviembre 19:00-20:00",
+  "Lunes 16 de noviembre 18:30-19:30",
 ];
 
 function getAuth() {
